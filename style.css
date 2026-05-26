@@ -1,0 +1,166 @@
+.login-box{
+
+    width:350px;
+
+    margin:120px auto;
+
+    padding:40px;
+
+    background:#0b1023;
+
+    border-radius:20px;
+
+    text-align:center;
+
+    box-shadow:0 0 20px cyan;
+}
+
+.login-box h1{
+    margin-bottom:20px;
+}
+
+.login-box input{
+
+    width:100%;
+
+    padding:12px;
+
+    margin:10px 0;
+
+    border:none;
+
+    border-radius:10px;
+}
+
+.login-box button
+{
+
+    width:100%;
+
+    padding:12px;
+
+    background:cyan;
+
+    border:none;
+
+    border-radius:10px;
+
+    font-weight:bold;
+
+    cursor:pointer;
+}
+/* DASHBOARD */
+
+.dashboard{
+
+    min-height:100vh;
+
+    padding:50px;
+
+    background:
+    linear-gradient(
+    135deg,
+    #050816,
+    #0b1023,
+    #07152f);
+
+    display:grid;
+
+    grid-template-columns:
+    repeat(auto-fit,minmax(300px,1fr));
+
+    gap:30px;
+}
+
+
+/* CARD DESIGN */
+
+.card{
+
+    background:#0f172a;
+
+    padding:30px;
+
+    border-radius:20px;
+
+    text-align:center;
+
+    transition:0.3s;
+
+    border:1px solid cyan;
+
+    box-shadow:
+    0 0 15px cyan;
+}
+
+
+/* HOVER EFFECT */
+
+.card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:
+    0 0 25px cyan,
+    0 0 50px cyan;
+}
+
+
+/* TEXT */
+
+.card h1,
+.card h2{
+
+    color:cyan;
+
+    margin-bottom:15px;
+
+    text-shadow:
+    0 0 10px cyan;
+}
+
+.card p{
+
+    color:white;
+
+    font-size:18px;
+}
+
+
+/* BUTTON */
+
+.dashboard button{
+
+    margin-top:20px;
+
+    padding:12px 25px;
+
+    border:none;
+
+    border-radius:10px;
+
+    background:cyan;
+
+    color:black;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+    box-shadow:
+    0 0 15px cyan;
+
+    transition:0.3s;
+}
+
+
+/* BUTTON HOVER */
+
+.dashboard button:hover{
+
+    transform:scale(1.05);
+
+    box-shadow:
+    0 0 25px cyan,
+    0 0 50px cyan;
+}
